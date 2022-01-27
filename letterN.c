@@ -106,6 +106,8 @@ int main(){
 Z[2][2]='*';
 Z[5][1]='*';
 */
+    
+    //CODE FOR LETTER Z
 int i, x;
  for(i=0; i<7; i++){
     for(x=0; x<4; x++){
@@ -126,7 +128,7 @@ int i, x;
  }
 
  printf("\n");
-
+Y();
  I(); //printf("\n");
 H(); //printf("\n");
  N(); //printf("\n");
