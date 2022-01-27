@@ -1,6 +1,24 @@
 
 #include<stdio.h>
 
+
+    void Y(){
+    for(int i=0; i<7; i++){
+        for(int x=0; x<4; x++){
+
+            if((i>=2&&x==2) || (x==0&&i==0)|| (x==1&&i==1)||(x==3&&i==1)){
+                printf("*");
+            }else if(x==3&&i==0){
+            printf(" *");
+            }
+            else{
+            printf("  ");
+            }
+        }
+        printf("\n");
+    }
+}
+
    void I(){
        int i, x;
     for( i=0; i<7; i++){
